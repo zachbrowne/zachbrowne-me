@@ -1,0 +1,11 @@
+v. 1.2
+- removed blue box shadow on inputs focus
+- Added App variant
+- Added flat mobile devices psd
+- Added bubble background psd
+- Added Twitter timeline
+
+v. 1.2.1
+- documentation update
+
+
