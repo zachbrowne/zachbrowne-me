@@ -9,9 +9,9 @@
 <!-- Basic Page Needs
     ================================================== -->
 <meta charset="utf-8">
-<title>ALTEA One Page Parallax HTML5, CSS3, responsive, Bootstrap website template</title>
-<meta name="description" content="ALTEA is a One Page Premium website Template, using nice Paralax effect, HTML5, CSS3 and Twitter Bootstrap Framework">
-<meta name="author" content="Little NEKO">
+<title>Zach Browne's Personal Blog</title>
+<meta name="description" content="My little personal space in the artificial neuro-network I can call home and be myself in.">
+<meta name="author" content="Zach Browne">
 <!-- Mobile Specific Metas
     ================================================== -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -41,10 +41,6 @@
 <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 </head>
 <body data-spy="scroll" data-target="#resMainMenu" data-offset="150">
-<!-- Preloader -->
-<div id="preloader">
-  <div id="status">loading</div>
-</div>
 <!-- Primary Page Layout 
     ================================================== -->
 <!-- globalWrapper -->
@@ -53,12 +49,29 @@
   <header id="mainHeader" class="clearfix">
     <div class="container">
       <div class="row">
-        <div class="span12"> <a href="index.html" class="brand"><img src="images/main-logo.png" alt="ALTEA website template"/></a>
-          <nav id="resMainMenu" class="scrollMenu">
+        <div class="span12"> <a href="index.html" class="brand"> <div>Zach Browne</div></a>
+ <nav id="mainMenu" class="scrollMenu clearfix">
             <ul class="nav clearfix">
-              <li class="active"><a href="artist-index.html#home-artist">Home</a></li>
-              <li><a href="artist-index.html#about">about me</a> </li>
-              <li><a href="artist-index.html#contact">Contact me</a> </li>
+              <li class="active">
+                <a href="#homeCorpo">
+                Home
+                </a>
+              </li>
+              <li>
+                <a href="#about">
+                About
+                </a>
+              </li>
+              <li>
+                <a href="blog.html"  >
+                Blog
+                </a>
+              </li>
+              <li>
+                <a href="#contactSlice">
+                Contact
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -71,8 +84,8 @@
     <div class="container">
       <div class="row">
         <div class="span12 text-center">
-          <h1 class="bigTitle">Hello, my name is Bond</h1>
-          <h2>Welcome to my portfolio</h2>
+          <h1 class="bigTitle">Hello, my name is Zach</h1>
+          <h2>Welcome to my little corner of the artificial neuro-network we call the interweb.</h2>
         </div>
       </div>
     </div>
@@ -81,32 +94,32 @@
         <div class="row">
           <ul id="og-grid" class="og-grid">
             <li> 
-            	<a class="previewTrigger" href="artist-index.html#" data-largesrc="images/portfolio2/ill_7_1.jpg, images/portfolio2/ill_7_2.jpg, images/portfolio2/ill_7_3.jpg, images/portfolio2/ill_7_4.jpg" data-title="4 faces of joy" data-description="Ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper.">
+            	<a class="previewTrigger" href="#" data-largesrc="images/portfolio2/ill_7_1.jpg, images/portfolio2/ill_7_2.jpg, images/portfolio2/ill_7_3.jpg, images/portfolio2/ill_7_4.jpg" data-title="4 faces of joy" data-description="Ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper.">
             		<img src="images/portfolio2/v_ill_7.jpg" alt="4 faces of joy"/>
             		<div class="mask"></div>
             		<span class="iconWrapper"><i class="icon-plus"></i></span> 
             	</a> 
             </li>
 
-            <li> <a class="previewTrigger" href="artist-index.html#" data-largesrc="images/portfolio2/ill_2_1.jpg" data-title="Big mouth" data-description="Ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_2.jpg" alt="Big mouth"/>
+            <li> <a class="previewTrigger" href="#" data-largesrc="images/portfolio2/ill_2_1.jpg" data-title="Big mouth" data-description="Ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_2.jpg" alt="Big mouth"/>
               <div class="mask"></div>
               <span class="iconWrapper"><i class="icon-plus"></i></span> </a> </li>
-            <li> <a class="previewTrigger" href="artist-index.html#" data-largesrc="images/portfolio2/ill_1_1.jpg,images/portfolio2/ill_1_2.jpg,images/portfolio2/ill_1_3.jpg" data-title="Floating island" data-description="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum metus sed sapien laoreet faucibus. Donec a turpis lacus.</p><h3>Etiam pharetra vehicula dolor, ut hendrerit</h3> ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_1.jpg" alt="Floating island"/>
+            <li> <a class="previewTrigger" href="#" data-largesrc="images/portfolio2/ill_1_1.jpg,images/portfolio2/ill_1_2.jpg,images/portfolio2/ill_1_3.jpg" data-title="Floating island" data-description="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum metus sed sapien laoreet faucibus. Donec a turpis lacus.</p><h3>Etiam pharetra vehicula dolor, ut hendrerit</h3> ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_1.jpg" alt="Floating island"/>
               <div class="mask"></div>
               <span class="iconWrapper"><i class="icon-plus"></i></span> </a> </li>
-            <li class="last"> <a class="previewTrigger" href="artist-index.html#" data-largesrc="images/portfolio2/ill_4_1.jpg" data-title="Pink dragon" data-description="<h3>Etiam pharetra vehicula dolor, ut hendrerit</h3> ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_4.jpg" alt="Pink dragon"/>
+            <li class="last"> <a class="previewTrigger" href="#" data-largesrc="images/portfolio2/ill_4_1.jpg" data-title="Pink dragon" data-description="<h3>Etiam pharetra vehicula dolor, ut hendrerit</h3> ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_4.jpg" alt="Pink dragon"/>
               <div class="mask"></div>
               <span class="iconWrapper"><i class="icon-plus"></i></span> </a> </li>
-            <li> <a class="previewTrigger" href="artist-index.html#" data-largesrc="images/portfolio2/ill_5_1.jpg,images/portfolio2/ill_5_2.jpg" data-title="Red monster" data-description="Ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_5.jpg" alt="Red monster"/>
+            <li> <a class="previewTrigger" href="#" data-largesrc="images/portfolio2/ill_5_1.jpg,images/portfolio2/ill_5_2.jpg" data-title="Red monster" data-description="Ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_5.jpg" alt="Red monster"/>
               <div class="mask"></div>
               <span class="iconWrapper"><i class="icon-plus"></i></span> </a> </li>
-            <li> <a class="previewTrigger" href="artist-index.html#" data-largesrc="images/portfolio2/ill_6_1.jpg,images/portfolio2/ill_6_2.jpg" data-title="The mouth" data-description="<h3>Etiam pharetra vehicula dolor, ut hendrerit</h3> ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_6.jpg" alt="The mouth"/>
+            <li> <a class="previewTrigger" href="#" data-largesrc="images/portfolio2/ill_6_1.jpg,images/portfolio2/ill_6_2.jpg" data-title="The mouth" data-description="<h3>Etiam pharetra vehicula dolor, ut hendrerit</h3> ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_6.jpg" alt="The mouth"/>
               <div class="mask"></div>
               <span class="iconWrapper"><i class="icon-plus"></i></span> </a> </li>
-            <li> <a class="previewTrigger" href="artist-index.html#" data-largesrc="images/portfolio2/ill_3_2.jpg" data-title="Little big king" data-description="Ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_3.jpg" alt="Little big king"/>
+            <li> <a class="previewTrigger" href="#" data-largesrc="images/portfolio2/ill_3_2.jpg" data-title="Little big king" data-description="Ipsum commodo in. Mauris eu eros vitae nisi tincidunt dapibus. Vivamus sagittis tellus condimentum gravida tincidunt. Cras porttitor ante leo, eu mattis erat interdum at. Donec non est nibh. Mauris quis varius mi. Suspendisse euismod elit id rutrum adipiscing. Nam consectetur eu justo eu facilisis. Curabitur bibendum viverra lacus vitae pharetra. Cras tristique libero nec lectus imperdiet semper."> <img src="images/portfolio2/v_ill_3.jpg" alt="Little big king"/>
               <div class="mask"></div>
               <span class="iconWrapper"><i class="icon-plus"></i></span> </a> </li>
-            <li class="last"> <a class="previewTrigger" href="artist-index.html#" data-largesrc="images/portfolio2/ill_8_1.jpg"  data-title="Fly me to the moon" data-description="Vous avez pour ambition de vendre vos produits ou services en ligne ? Nous avons les moyens et les connaissances pour vous accompagner avec succès dans ce projet. Gestion des stocks, intégration des divers moyens de paiements, suivis des commandes et des livraisons, tout est possible !"> <img src="images/portfolio2/v_ill_8.jpg" alt="Fly me to the moon"/>
+            <li class="last"> <a class="previewTrigger" href="#" data-largesrc="images/portfolio2/ill_8_1.jpg"  data-title="Fly me to the moon" data-description="Vous avez pour ambition de vendre vos produits ou services en ligne ? Nous avons les moyens et les connaissances pour vous accompagner avec succès dans ce projet. Gestion des stocks, intégration des divers moyens de paiements, suivis des commandes et des livraisons, tout est possible !"> <img src="images/portfolio2/v_ill_8.jpg" alt="Fly me to the moon"/>
               <div class="mask"></div>
               <span class="iconWrapper"><i class="icon-plus"></i></span> </a> </li>
           </ul>
@@ -114,7 +127,7 @@
       </div>
     </div>
   </section>
-  <nav class="arrowsNav"> <a href="artist-index.html#about" class="navDown color4"><i class="icon-down-open"></i></a> <a href="artist-index.html#home-artist" class="navUp color1"><i class="icon-up-open"></i></a> </nav>
+  <nav class="arrowsNav"> <a href="#about" class="navDown color4"><i class="icon-down-open"></i></a> <a href="#home-artist" class="navUp color1"><i class="icon-up-open"></i></a> </nav>
   <div id="paralaxSlice11" data-stellar-background-ratio="0.5">
     <div class="paralaxText">
       <div class="iconWrapper iconBig color4"><i class="icon-heart"></i></div>
@@ -139,7 +152,7 @@
       </div>
     </div>
   </section>
-  <nav class="arrowsNav"> <a href="artist-index.html#contact" class="navDown color1"><i class="icon-down-open"></i></a> <a href="artist-index.html#about" class="navUp color4"><i class="icon-up-open"></i></a> </nav>
+  <nav class="arrowsNav"> <a href="#contact" class="navDown color1"><i class="icon-down-open"></i></a> <a href="#about" class="navUp color4"><i class="icon-up-open"></i></a> </nav>
   <div id="paralaxSlice12" data-stellar-background-ratio="0.5">
     <div class="paralaxText">
       <blockquote>I don't do drugs. I am drugs.<br><small>Salvador Dali</small></blockquote>
@@ -152,13 +165,13 @@
           <h1>Contact me</h1>
         </div>
         <div id="contactSlide">
-          <div class="span3"> <a href="artist-index.html" title="" id="mapTriggerLoader">
+          <div class="span3"> <a href="" title="" id="mapTriggerLoader">
             <div class="iconWrapper iconBig"> <i class="icon-location"></i> </div>
             <span class="clearfix">Click to see the map</span></a>
             <p>Curabitur turpis orci, gravida non ornare id, venenatis nec enim. Praesent posuere condimentum leo eget volutpat. .</p>
           </div>
           <div class="span6">
-            <form method="post" action="http://altea-parallax-one-page-website-template.little-neko.com/js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm">
+            <form method="post" action="js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm">
               <label for="name"></label>
               <input type="text" name="name" id="name" placeholder="Name"  title="Please enter your name (at least 2 characters)"/>
               <label for="email"></label>
@@ -171,7 +184,7 @@
               <legend>Security</legend>
               <div class="row">
                 <div class="span6 pull-left humanCheck">
-                  <label for="verify" class="pull-left"><img src="js-plugin/neko-contact-ajax-plugin/php/image.php.html" alt="Image verification"/></label>
+                  <label for="verify" class="pull-left"><img src="js-plugin/neko-contact-ajax-plugin/php/image.php" alt="Image verification"/></label>
                   <input class="required "  id="verify" name="verify" type="text" >
                 </div>
               </div>
@@ -196,12 +209,12 @@
         <div id="mapSlide">
           <div class="span12">
             <div id="mapWrapper"></div>
-            <a href="artist-index.html#" title="" id="mapReturn" class="btn btn-small"><i class="icon-left-dir"></i> Back</a> </div>
+            <a href="#" title="" id="mapReturn" class="btn btn-small"><i class="icon-left-dir"></i> Back</a> </div>
         </div>
       </div>
     </div>
   </section>
-  <nav class="arrowsNav"> <a href="artist-index.html#home-artist" class="navUp color4"> <i class="icon-up-open"></i> </a> </nav>
+  <nav class="arrowsNav"> <a href="#home-artist" class="navUp color4"> <i class="icon-up-open"></i> </a> </nav>
   <!-- content -->
   <!-- footer -->
   <footer>
@@ -215,12 +228,12 @@
           </div>
           <div class="span12">
             <ul class="socialNetwork">
-              <li><a href="artist-index.html#" class="iconWrapper color4 tips icoRss" title="Rss"><i class="icon-rss"></i></a></li>
-              <li><a href="artist-index.html#" class="iconWrapper color4 tips icoFacebook" title="Facebook"><i class="icon-facebook"></i></a></li>
-              <li><a href="artist-index.html#" class="iconWrapper color4 tips icoTwitter" title="Twitter"><i class="icon-twitter"></i></a></li>
-              <li><a href="artist-index.html#" class="iconWrapper color4 tips icoGoogle" title="Google +"><i class="icon-gplus"></i></a></li>
-              <li><a href="artist-index.html#" class="iconWrapper color4 tips icoVimeo" title="Vimeo"><i class="icon-vimeo"></i></a></li>
-              <li class="last"><a href="artist-index.html#" class="iconWrapper color4 tips icoLinkedin" title="Linkedin"><i class="icon-linkedin"></i></a></li>
+              <li><a href="#" class="iconWrapper color4 tips icoRss" title="Rss"><i class="icon-rss"></i></a></li>
+              <li><a href="#" class="iconWrapper color4 tips icoFacebook" title="Facebook"><i class="icon-facebook"></i></a></li>
+              <li><a href="#" class="iconWrapper color4 tips icoTwitter" title="Twitter"><i class="icon-twitter"></i></a></li>
+              <li><a href="#" class="iconWrapper color4 tips icoGoogle" title="Google +"><i class="icon-gplus"></i></a></li>
+              <li><a href="#" class="iconWrapper color4 tips icoVimeo" title="Vimeo"><i class="icon-vimeo"></i></a></li>
+              <li class="last"><a href="#" class="iconWrapper color4 tips icoLinkedin" title="Linkedin"><i class="icon-linkedin"></i></a></li>
             </ul>
           </div>
           <div class="span12"> </div>
